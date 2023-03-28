@@ -91,7 +91,7 @@ describe("Roller tests on given constructor", () => {
     expect(dice.distribution().get(6)).toBe(0);
   });
 
-  test('Check the disrubution of all the rolls with all the methods', () => {
+  test('Check the distribution of all the rolls with all the methods', () => {
     const roller = new Roller();
     expect(roller.roll(0)).toBe(0);
     expect(roller.last()).toBe(0);
